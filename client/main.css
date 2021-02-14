@@ -1,0 +1,39 @@
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
+  flex-direction: column;
+  text-align: center;
+  margin-left: 64px;
+}
+.register-form {
+  width: 350px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+}
+.goodsPage-container {
+  margin-left: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.goodsForm-container {
+  width: 1400px;
+  margin-top: 50px;
+}
+.goodsTable-container {
+  margin-top: 35px;
+}
+.dropdown-toggle{
+  width: 100% !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .register-form {
+    width: 200px;
+    height: 200px;
+  }
+}
